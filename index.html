@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Whack-a-Mole Game | Play Online</title>
+
+    <meta name="description"
+        content="Play Whack-a-Mole online. Test your reflexes, score points, and beat the timer in this fun browser game.">
+
+    <meta name="keywords"
+        content="Whack-a-Mole, online game, browser game, reflex game, JavaScript game, HTML CSS JavaScript">
+
+    <meta name="author" content="Shubham">
+
+    <link rel="canonical" href="https://your-domain.com/">
+
+    <meta property="og:title" content="Whack-a-Mole Game">
+    <meta property="og:description"
+        content="Play Whack-a-Mole online and challenge your reflexes against the clock.">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav aria-label="Theme Controls">
+        <button id="mode" aria-label="Switch Theme">Switch Mode</button>
+    </nav>
+
+    <main>
+        <header>
+            <h1>Whack-a-Mole!</h1>
+        </header>
+
+        <section class="scoreboard" aria-label="Game Scoreboard">
+            <h2>
+                Score:
+                <span id="score">0</span>
+            </h2>
+
+            <h2>
+                Time Left:
+                <span id="timer">20</span>
+            </h2>
+        </section>
+
+        <section class="buttons" aria-label="Game Controls">
+            <button class="btn" id="start-btn">Start Game</button>
+            <button class="btn" id="restart">Restart Game</button>
+        </section>
+
+        <section class="grid" aria-label="Game Grid">
+            <div class="box" id="1"></div>
+            <div class="box" id="2"></div>
+            <div class="box" id="3"></div>
+            <div class="box" id="4"></div>
+            <div class="box" id="5"></div>
+            <div class="box" id="6"></div>
+            <div class="box" id="7"></div>
+            <div class="box" id="8"></div>
+            <div class="box" id="9"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
